@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:platzi_trips_app/layout_trip.dart';
 
+import 'layout_trip_cupertino.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: LayoutTrip()
+      home: LayoutTripCupertino()
       //MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
