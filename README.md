@@ -1,6 +1,7 @@
-# platzi_trips_app
+# trips_app
 
-A new Flutter project.
+
+My first flutter app.
 
 ## Getting Started
 
