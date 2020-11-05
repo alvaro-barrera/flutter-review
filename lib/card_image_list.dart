@@ -8,6 +8,7 @@ class CardImageList extends StatelessWidget {
     return Container(
       height: 350,
       child: ListView(
+        physics: BouncingScrollPhysics(),
         padding: EdgeInsets.all(25),
         scrollDirection: Axis.horizontal,
         children: [

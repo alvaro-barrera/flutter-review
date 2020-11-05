@@ -1,9 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/gradient_back.dart';
-import 'package:platzi_trips_app/header_appbar.dart';
-import 'package:platzi_trips_app/review_list.dart';
-import 'description_place.dart';
+import 'package:platzi_trips_app/layout_trip.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -26,20 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        // body: new DescriptionPlace("Titulo item", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id eros urna. Aliquam vitae enim quis magna hendrerit venenatis. Nullam id quam consequat, lacinia quam eget, iaculis neque. Maecenas vestibulum sagittis sapien sit amet fringilla. Mauris dictum velit quis varius pharetra.", 4),
-        body: Stack(
-          children: [
-            ListView(
-              children: [
-                DescriptionPlace("Titulo item", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id eros urna. Aliquam vitae enim quis magna hendrerit venenatis. Nullam id quam consequat, lacinia quam eget, iaculis neque. Maecenas vestibulum sagittis sapien sit amet fringilla. Mauris dictum velit quis varius pharetra.", 4),
-                ReviewList()
-              ],
-            ),
-            HeaderAppBar()
-          ],
-        ),
-      ),
+      home: LayoutTrip()
       //MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
