@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/card_image.dart';
+import 'file:///D:/platzi_trips_app/lib/Place/ui/widgets/card_image.dart';
 
 class CardImageList extends StatelessWidget {
   @override

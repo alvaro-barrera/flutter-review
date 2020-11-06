@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/profile_trip.dart';
-import 'package:platzi_trips_app/search_trip.dart';
+import 'file:///D:/platzi_trips_app/lib/User/ui/screens/profile_trip.dart';
+import 'file:///D:/platzi_trips_app/lib/Place/ui/screens/search_trip.dart';
 
-import 'home_trip.dart';
+import 'Place/ui/screens/home_trip.dart';
 
 class LayoutTrip extends StatefulWidget {
   @override
