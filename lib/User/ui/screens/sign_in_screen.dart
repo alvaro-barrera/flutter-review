@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:platzi_trips_app/widgets/button_green.dart';
 import 'package:platzi_trips_app/widgets/gradient_back.dart';
 
 class SignInScreen extends StatefulWidget {
@@ -24,6 +25,7 @@ class _SignInScreen extends State<SignInScreen> {
         children: [
           GradientBack("", null),
           Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 "Welcome",
@@ -33,6 +35,13 @@ class _SignInScreen extends State<SignInScreen> {
                   color: Colors.white,
                   fontWeight: FontWeight.bold
                 ),
+              ),
+              ButtonGreen(text: "Login with gmail",
+                  onPressed: (){
+
+                  },
+                width: 300,
+                height: 50,
               )
             ],
           )
